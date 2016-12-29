@@ -156,9 +156,11 @@ header h2 { font-size: 16px; }
 
 .body h1 { text-align: center; border-bottom: 5px solid #000; padding-bottom: 20px; }
 
-.body h2 { font-size: 16px; text-align: center; }
+.body h2 { font-size: 26px; text-align: center; }
 
-@media screen and (min-width: 600px) { .body h2 { font-size: 20px; } }
+@media screen and (min-width: 600px) { .body h2 { font-size: 30px; } }
+
+.body h3 { font-size: 30px; }
 
 .caption { font-style: italic; padding-left: 20px; }
 
