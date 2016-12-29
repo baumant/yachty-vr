@@ -41,7 +41,7 @@
 	function scrollObjects(YPOS, ORD){
 
 		this.y = YPOS;
-		this.rndImg = Math.floor( Math.random()*11 );
+		this.rndImg = Math.floor((Math.random() * 12));
 
 		$("#foodItemHolder").append("<div class='foodItem' id='fi"+ORD+"'><img src='img/assets/"+this.rndImg+".png'/></div>");
 
@@ -51,7 +51,7 @@
 		this.obj.css("left", this.x+"px");
 		this.obj.css("top", this.y+"px");
 
-		this.scl = .1+Math.random()*.2;
+		this.scl = .05+Math.random()*.2;
 
 		this.obj.scale('' + ( this.scl ));
 		// this.obj.rotate('' + ( Math.random()*360 ));
@@ -75,13 +75,12 @@
 				this.y = -100;
 				this.x = Math.random() * ( window.innerWidth - 100 );
 				this.changeImage();
-
 			}
 
 		}
 
 		this.changeImage = function(){
-			this.rndImg = Math.floor( Math.random()*11 );
+			this.rndImg = Math.floor( Math.random()*12 );
 			this.obj.children("img").attr("src", "img/assets/"+this.rndImg+".png");
 		}
 
