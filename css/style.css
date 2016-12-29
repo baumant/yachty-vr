@@ -133,7 +133,7 @@ audio { width: 100%; }
 
 header { text-align: center; font-family: "Comic Sans MS", cursive, sans-serif; }
 
-header h1 { margin-top: 100px; font-size: 36px; border-bottom: 5px solid #000; padding-bottom: 20px; }
+header h1 { margin-top: 100px; font-size: 36px; padding-bottom: 20px; }
 
 header h2 { font-size: 16px; }
 
@@ -154,7 +154,7 @@ header h2 { font-size: 16px; }
 
 .body li { margin: 10px 0; }
 
-.body h1 { text-align: center; border-bottom: 5px solid #000; padding-bottom: 20px; }
+.body h1 { text-align: center; padding-bottom: 20px; }
 
 .body h2 { font-size: 26px; text-align: center; }
 
