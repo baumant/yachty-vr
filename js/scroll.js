@@ -51,7 +51,7 @@
 		this.obj.css("left", this.x+"px");
 		this.obj.css("top", this.y+"px");
 
-		this.scl = .05+Math.random()*.2;
+		this.scl = .1+Math.random()*.25;
 
 		this.obj.scale('' + ( this.scl ));
 		// this.obj.rotate('' + ( Math.random()*360 ));
