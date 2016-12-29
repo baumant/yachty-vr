@@ -60,7 +60,7 @@
 		this.update = function(){
 
 			this.mt = ((currScroll-pScroll)*(this.scl*3.0))*0.3;
-			this.y -= this.mt;
+			this.y += this.mt;
 			//this.obj.css("margin-top", +this.mt+"px")
 
 			this.obj.css("top", this.y+"px");
